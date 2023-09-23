@@ -1,0 +1,5 @@
+target
+/tools
+common/codenameone_settings.properties
+/private
+.DS_Store

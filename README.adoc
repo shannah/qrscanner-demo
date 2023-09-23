@@ -1,0 +1,45 @@
+= Codename One QRScanner Demo Project
+
+This project demonstrates how to use the https://github.com/codenameone/QRScanner[QRScanner cn1lib] to scan QR codes in a https://www.codenameone.com[Codename One] app.
+
+== Requirements
+
+1. JDK 11
+
+== Setup
+
+1. Copy the `common/codenameone_settings.properties.example` file to `common/codenameone_settings.properties`.
+2. Setup your Android and iOS build settings in Codename One preferences.  This includes setting your Android keystore, and iOS certificate and provisioning profile.
+
+== Run in Simulator
+
+Currently this app doesn't do much in simulator, because the simulator doesn't have a QR scanner.  Nonetheless, you can run it with:
+
+[source,shell]
+---
+./run.sh
+---
+
+Or in your IDE using the `Run Simulator` target.
+
+== Build for Android
+
+Command-line:
+
+[source,shell]
+---
+./build.sh android
+---
+
+Or, in your IDE, using the `Build Server > Android Build` target.
+
+== Build for iOS
+
+---
+./build.sh ios
+---
+
+Or, in your IDE, using one of the `Build Server > iOS ...` targets.
+
+
+
