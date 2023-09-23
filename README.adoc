@@ -16,9 +16,9 @@ This project demonstrates how to use the https://github.com/codenameone/QRScanne
 Currently this app doesn't do much in simulator, because the simulator doesn't have a QR scanner.  Nonetheless, you can run it with:
 
 [source,shell]
----
+----
 ./run.sh
----
+----
 
 Or in your IDE using the `Run Simulator` target.
 
@@ -27,17 +27,17 @@ Or in your IDE using the `Run Simulator` target.
 Command-line:
 
 [source,shell]
----
+----
 ./build.sh android
----
+----
 
 Or, in your IDE, using the `Build Server > Android Build` target.
 
 == Build for iOS
 
----
+----
 ./build.sh ios
----
+----
 
 Or, in your IDE, using one of the `Build Server > iOS ...` targets.
 
