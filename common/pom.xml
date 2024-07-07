@@ -22,7 +22,7 @@
         <dependency>
             <groupId>com.codenameone</groupId>
             <artifactId>qrscanner-lib</artifactId>
-            <version>LATEST</version>
+            <version>2.0.3-SNAPSHOT</version>
             <type>pom</type>
         </dependency>
         <!-- INJECT DEPENDENCIES -->
